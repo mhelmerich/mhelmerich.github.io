@@ -14,12 +14,12 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Homelab Dokumentation # the main title
+title: Homelab Documentation # the main title
 
-tagline: Dokumentationen für mein Homelab # it will display as the sub-title
+tagline: Documentation for my Homelab # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Damit ich nicht vergesse wie ich alles aufgesetzt habe >:)~
+  Docs so I don't forget how and why I did the things I did >:)~
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,8 +34,8 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Max
-  email: example@domain.com # change to your email address
+  name: Max Helmerich
+  #email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - # https://twitter.com/username # change to your twitter homepage
