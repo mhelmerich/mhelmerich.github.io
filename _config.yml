@@ -38,6 +38,7 @@ social:
   #email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/maximilian-helmerich-255908261
     - # https://twitter.com/username # change to your twitter homepage
     - https://github.com/mhelmerich # change to your github homepage
     # Uncomment below to add more social links
