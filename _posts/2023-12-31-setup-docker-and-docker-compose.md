@@ -58,7 +58,7 @@ curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --out
 docker compose up -d
 ```
 
-Dockge is now running on http://localhost:5001
+Dockge is now running on [http://localhost:5001](http://localhost:5001)
 
 ![Settings](dockge.png)
 
