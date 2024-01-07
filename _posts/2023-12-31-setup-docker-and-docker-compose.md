@@ -1,9 +1,9 @@
 ---
 title: Setup docker, docker-compose and Dockge
 author: max
-date: 2023-12-31 15:30
+date: 2024-1-7 15:30
 categories: [homelab, documentation]
-tags: [docker, docker-compose, portainer]
+tags: [docker, docker-compose, dockge]
 img_path: /assets/images/docker
 image:
   path: /docker.png
@@ -58,16 +58,19 @@ curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --out
 docker compose up -d
 ```
 
-Dockge is now running on [http://localhost:5001](http://localhost:5001)
-
-![Settings](dockge.png)
-
-
 ### How to update Dockge
 
 ```bash
 cd /opt/dockge
 docker compose pull && docker compose up -d
 ```
+
+
+# Dockge GUI
+Dockge is now running on [http://localhost:5001](http://localhost:5001)
+
+![Settings](dockge.png)
+
+
 
 Now we're up and running to setup more services using docker-compose  neat! 
