@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  server:
+    container_name: vaultwarden
+    environment:
+      - SIGNUPS_ALLOWED=false
+      - ADMIN_TOKEN=$argon2id$v=19$m=64,t=3,p=4$supersecurestring
+    volumes:
+      - /vw-data/:/data/
+    restart: unless-stopped
+    ports:
+      - 8060:80
+    image: vaultwarden/server:latest
+networks: {}
